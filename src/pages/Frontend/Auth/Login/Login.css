@@ -1,0 +1,111 @@
+.login_content {
+  max-width: 440px;
+  width: 100%;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  border-radius: 12px;
+  padding: 30px 20px;
+}
+.login_content_title {
+  font-size: 24px;
+  color: #041826;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.form_input_inner {
+  margin-bottom: 15px;
+}
+.form_input_inner label {
+  font-size: 15px;
+  display: block;
+  margin-bottom: 6px;
+  color: #0f172a99;
+  font-weight: 500;
+}
+.form_input_inner input {
+  height: 36px;
+  border-radius: 6px;
+}
+.input_control {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  padding: 0 15px;
+  border: 1px solid #f2f2f2;
+  outline: none;
+  font-size: 15px;
+  color: #0f172a99;
+  display: block;
+}
+.forgot__password {
+  display: inline-block;
+  font-size: 15px;
+  color: var(--paragraph);
+  font-weight: 400;
+  transition: all linear 0.3s;
+}
+.form_submit_btn button {
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  background: #00A7E8;
+  border-radius: 6px;
+}
+.main_btn {
+    border: none;
+    display: inline-block;
+    outline: none;
+    padding: 7px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    transition:  all linear 0.3s;
+}
+.form_devide {
+    border-bottom: 1px solid #f2f2f2;
+    position: relative;
+    margin: 20px 0;
+}
+
+.sign__google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+    color: #0f172a99;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-weight: 700;
+    background: #fafafa;
+    height: 40px;
+}
+.main__form_text {
+    text-align: center;
+    color: #0f172a99;
+    font-weight: 500;
+    font-size: 15px;
+}
+.main__form_link {
+    color: #00A7E8;
+}
+.forgot__password {
+    display: inline-block;
+    font-size: 15px;
+    color: #0f172a99;
+    font-weight: 400;
+    transition: all linear 0.3s;;
+}
+.form_devide span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #0f172a99;
+    font-weight: 600;
+}
